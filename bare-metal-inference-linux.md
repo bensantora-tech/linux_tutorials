@@ -5,11 +5,12 @@ Compiling llama.cpp from source with native CPU optimizations eliminates wrapper
 *By Ben Santora — January 2026*
 
 ## My Specs: System is a 2021 HP ENVY 17m-ch0xxx with the following relevant specs:
-    • CPU: 11th Gen Intel Core i7-1165G7 (4 cores, 8 threads), up to 4.7 GHz, with Iris Xe integrated graphics. 
-    • RAM: 12 GiB (reported as 11 GiB usable), which is sufficient for 4B–7B quantized LLMs. 
-    • GPU: Intel Iris Xe (integrated, no dedicated GPU), so Ollama runs purely on CPU—still viable with quantized models. 
-    • OS: Debian - The i7-1165G7’s AVX-512 support (visible in CPU flags) accelerates matrix operations, 
-    - 12 GiB RAM comfortably handles 7B and 8B models. I averaged ~390% CPU usage with full utilization of 4 physical cores during inference. 
+    - CPU: 11th Gen Intel Core i7-1165G7 (4 cores, 8 threads), up to 4.7 GHz, with Iris Xe integrated graphics. 
+    - RAM: 12 GiB (reported as 11 GiB usable), which is sufficient for 4B–7B quantized LLMs. 
+    - GPU: Intel Iris Xe (integrated, no dedicated GPU), so Ollama runs purely on CPU—still viable with quantized models. 
+    - OS: Debian - The i7-1165G7’s AVX-512 support (visible in CPU flags) accelerates matrix operations, 
+    - 12 GiB RAM comfortably handles 7B and 8B models. 
+    - Averaged ~390% CPU usage with full utilization of 4 physical cores during inference. 
     
 ---
 

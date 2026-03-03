@@ -1,4 +1,4 @@
-# How to Run llama.cpp Bare-Metal on Linux for Maximum CPU Inference Performance
+# Run llama.cpp Bare-Metal on Linux
 
 Compiling llama.cpp from source with native CPU optimizations eliminates wrapper overhead and maximizes inference performance on Linux systems without dedicated GPUs. This guide walks through every step — from auditing your hardware to running your first local conversation.
 
